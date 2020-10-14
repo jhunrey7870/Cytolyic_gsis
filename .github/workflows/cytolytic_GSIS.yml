@@ -45,7 +45,7 @@ jobs:
               sudo bash setup.sh
        
        - name: make some gsi bitches
-         run: sudo ./ErfanGSIs/url2GSI.sh $ROM_URL Generic:CorvusOS
+         run: sudo ./ErfanGSIs/url2GSI.sh $ROM_URL $ROM_NAME
 
        
        - name: Upload A-only To afh

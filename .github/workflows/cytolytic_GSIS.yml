@@ -38,8 +38,8 @@ jobs:
               TOKEN: ${{ secrets.TOKEN }}
          run: |
               sudo install telegram /usr/bin
-              chmod +x $ROM/taco.sh
-              . $ROM/taco.sh
+              chmod +x $ROM_NAME/taco.sh
+              . $ROM_NAME/taco.sh
 
        - name: Initializing environment
          run: |

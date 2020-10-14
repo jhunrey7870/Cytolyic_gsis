@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://master.dl.sourceforge.net/project/ancientrom/RMX1921/AncientOS-CIVILIZATION-v4.0-Final-RMX1921-PRIMEVAL-20201013-0833-Vanilla.zip
+  ROM_URL: https://deac-ams.dl.sourceforge.net/project/bootleggersrom//builds/guacamole/BootleggersROM-Queue4guacamole.5.2-Stable-Shishufied-20200906-115311.zip
   ROM_NAME: Generic
   TZ: Asia/Kolkata
   ZIP_NAME: cytobish

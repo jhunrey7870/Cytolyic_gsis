@@ -15,7 +15,7 @@ on:
     
 env:
   ROM_URL: https://dllb2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2MDI3MDU5ODciLCJ1IjpudWxsLCJsdCI6ImRvd25sb2FkIiwicyI6Ijg4ZTc4YWVkNWNmZWUyOTQxODQ3ODZlNzNmM2QxNjQ1ZTk3Y2YwZDkxZDNjYTJjNTI4YmY5MGQxZjllMzkxOWE4ZjgxYjBhMmNjNTU2MzY2Y2IwMjJjMzc4OWU3MTU1NGZhMjA2NTg4OTc0MjQ5YjUxZDUyYTM1MzllYTAwMDZlIiwidCI6MTYwMjcxMDU3MCwic3RmcCI6IiIsInN0aXAiOm51bGx9.cNs353I0BjAU4jD050VDMhoOhGQdqufVyHF5-3wLe-E/Corvus_v10.0-R-Alpha-TheStorm-whyred-14102020-Official-1635.zip
-  ROM_NAME: Generic:CorvusOS
+  ROM_NAME: Generic
   TZ: Asia/Kolkata
   ZIP_NAME: CorvusOS
   username : ${{ secrets.USERNAME }}

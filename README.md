@@ -2,4 +2,4 @@
 
 
 # Tutorial
-let me make it work first lmfao
+soon just gotta make this work decently

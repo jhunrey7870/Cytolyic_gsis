@@ -53,7 +53,8 @@ jobs:
               sudo bash setup.sh
        
        - name: make some gsi bitches
-         run: sudo ./ErfanGSIs/url2GSI.sh $ROM_URL
+         run: sudo ./ErfanGSIs/url2GSI.sh $ROM_LINK Generic
+
        
        - name: Zip Aonly and upload 
          run: |

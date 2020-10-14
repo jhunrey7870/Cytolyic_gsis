@@ -9,5 +9,5 @@ sudo ./ErfanGSIs/url2GSI.sh $ROM_URL Generic
     curl -sL https://git.io/file-transfer | sh
     echo "::set-env name=arm64ab::$(./transfer $MIR $ZIP_NAME-CytolyticGSIs-Aonly.7z" | grep -o -P '(?<=Download Link: )\S+')" 
     echo "::set-env name=arm64a-only::$(./transfer $MIR $ROM_NAME-CytolyticGSIs-AB.7z" | grep -o -P '(?<=Download Link: )\S+')"
-    echo "::set-env name=AFH-AONLY::$(curl -T $ROM_NAME-CytolyticGSIs-Aonly.7z ftp://$username:$password@$uploadto" | grep -o -P '(?<=Download Link: )\S+')"
-    echo "::set-env name=AFH-AB::$(curl -T $ROM_NAME-CytolyticGSIs-AB.7z ftp://$username:$password@$uploadto" | grep -o -P '(?<=Download Link: )\S+')"
+    echo "::set-env name=AFH-AONLY::$(curl -T $ROM_NAME-CytolyticGSIs-Aonly.7z ftp://$username:$password@$uploadto"" | grep -o -P '(?<=Download Link: )\S+')"
+    echo "::set-env name=AFH-AB::$(curl -T $ROM_NAME-CytolyticGSIs-AB.7z ftp://$username:$password@$uploadto"" | grep -o -P '(?<=Download Link: )\S+')"

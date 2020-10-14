@@ -17,7 +17,6 @@ env:
   ROM_URL: https://dllb2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2MDI3MDU5ODciLCJ1IjpudWxsLCJsdCI6ImRvd25sb2FkIiwicyI6IjRlZjc2YzBiNjViZDkzOWI3M2RiNDZhMzlhNmRiNjI1ZjM5OWE3ODcwMjgzNWViODdlMjc3MmI5ZjNmMTc4ODI3MjBkNDY4N2Y0Y2NlNDUzYTJhODQ5NzA3NjViYzc2MDY0ZjdjZjcyMDNlOTVmOWJmZDcxMDVkMDRiMWE5NmJiIiwidCI6MTYwMjcxNDM3OCwic3RmcCI6IiIsInN0aXAiOm51bGx9.dslDxXo291PcdNlA1PTbXM52fh3qKGlfuUnXVHCoXAA/Corvus_v10.0-R-Alpha-TheStorm-whyred-14102020-Official-1635.zip
   ROM_NAME: Generic
   TZ: Asia/Kolkata
-  ZIP_NAME: CorvusOS
   username : ${{ secrets.USERNAME }}
   password : ${{ secrets.PASSWORD }}
   MIR: wet
@@ -29,6 +28,18 @@ jobs:
     steps:
        - name: Checkout
          uses: actions/checkout@master
+
+       - name: Set up python
+         uses: actions/setup-python@v2
+         with:
+           python-version: '3.8.2'
+       - name: install cyto bot :P
+         env:
+              TOKEN: ${{ secrets.TOKEN }}
+         run: |
+              sudo install telegram /usr/bin
+              chmod +x $ROM/initial.sh
+              . $ROM/initial.sh
 
        - name: Initializing environment
          run: |
@@ -43,35 +54,17 @@ jobs:
               sudo chmod -R 777 ErfanGSIs
               cd ErfanGSIs
               sudo bash setup.sh
-       
-       - name: make some gsi bitches
-         run: sudo ./ErfanGSIs/url2GSI.sh $ROM_URL $ROM_NAME
 
+       - name: start making gsis
+         env:
+              TOKEN: ${{ secrets.TOKEN }}
+              
+         run: |
+               chmod +x $ROM_NAME/pizza.sh
+               . $ROM_NAME/pizza.sh
+               
        
-       - name: Upload A-only To afh
-         run: |
-              mkdir final
-              sudo chmod -R 777 ErfanGSIs/output
-              cd ErfanGSIs/output
-              zip -r $ZIP_NAME-GSI-Aonly.7z *-Aonly-*.img
-              curl -T $ZIP_NAME-GSI-Aonly.7z ftp://$username:$password@$uploadto/
-       
-       - name: Upload A-only to 2nd mirror
-         run: |
-              cd ErfanGSIs/output
-              curl -sL https://git.io/file-transfer | sh
-              ./transfer $MIR $ZIP_NAME-GSI-Aonly.7z          
-       - name: Zip AB and upload to AFH
-         run: |
-              cd ErfanGSIs/output
-              zip -r $ZIP_NAME-GSI-AB.7z *-AB-*.img
-              curl -T $ZIP_NAME-GSI-AB.7z ftp://$username:$password@$uploadto/
-      
-       - name: upload AB to 2nd mirror
-         run: |
-              cd ErfanGSIs/output
-              curl -sL https://git.io/file-transfer | sh
-              ./transfer $MIR $ZIP_NAME-GSI-AB.7z
+
        - name: Print build info
          run: |
               cat ErfanGSIs/output/*-Aonly-*.txt

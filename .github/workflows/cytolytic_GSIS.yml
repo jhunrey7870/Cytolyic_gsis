@@ -58,8 +58,6 @@ jobs:
        
        - name: Upload A-only to 2nd mirror
          run: |
-              mkdir final
-              sudo chmod -R 777 ErfanGSIs/output
               cd ErfanGSIs/output
               curl -sL https://git.io/file-transfer | sh
               ./transfer $MIR $ZIP_NAME-GSI-Aonly.7z          
@@ -71,8 +69,6 @@ jobs:
       
        - name: upload AB to 2nd mirror
          run: |
-              mkdir final
-              sudo chmod -R 777 ErfanGSIs/output
               cd ErfanGSIs/output
               curl -sL https://git.io/file-transfer | sh
               ./transfer $MIR $ZIP_NAME-GSI-Aonly.7z

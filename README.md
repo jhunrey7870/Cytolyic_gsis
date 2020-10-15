@@ -1,4 +1,5 @@
-# Gsi build and telegram bot script
+# Gsi build
+this is probably the best gsi script you can find
 
 
 # supported roms:

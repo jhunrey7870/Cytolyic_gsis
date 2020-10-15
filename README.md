@@ -19,7 +19,7 @@ Xperia
 Android 10
 ```
 EMUI, MIUI, FunTouch,Generic,OxygenOS, Pixel, ColorOS, Nubia
-Flyme, JoyUI  , Nokia , OneUI , RazerUI , VOS , ZUI , ZenUI , Xperia
+Flyme, JoyUI, SurfaceDuo , Nokia , OneUI , RazerUI , VOS , ZUI , ZenUI , Xperia
 ```
 Android 11
 ```

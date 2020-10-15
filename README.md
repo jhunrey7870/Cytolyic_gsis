@@ -6,7 +6,7 @@ if you're going to use this script then please make sure to give proper credit
 <img align='middle' src='https://ephmedia.giphy.com/13f59f5d-8956-446c-b7c6-595d2e7a0a69.gif' width='500'>
 
 
-btw this is probably one of the best gso build script out there
+btw this is probably one of the best gsi build script out there
 # supported roms:
 
 Android 9

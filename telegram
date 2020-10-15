@@ -2,6 +2,7 @@
 
 VERSION="0.2"
 CHATS=(-1001289497334)
+TOKEN=" ${{ secrets.TOKEN }} "
 DEBUG=false
 DRY_RUN=false
 IMAGE_FILE=""

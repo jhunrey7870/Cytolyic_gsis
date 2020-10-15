@@ -33,7 +33,7 @@ Generic
 # Credits
 [JamieHoSzeYui(henloboi)/area69Labs](https://github.com/JamieHoSzeYui/GSI-Automation)
 
-### For the base script (i changed most of it :P)
+### For the base script (i changed all of it  :P)
 [Enzo](https://github.com/yukosky)
 ### for being a good bish
 

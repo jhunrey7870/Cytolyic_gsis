@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://dllb2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2MDI3MDU5ODciLCJ1IjpudWxsLCJsdCI6ImRvd25sb2FkIiwicyI6ImNiN2MwMjU2YzYxMDViOTY2MGExYjU0ZWY4NzU4ZGYyY2U3ZTM3ZWY1NGU4ODhjYjYzNjdlZjdkY2IzYTJhMTdhMjM0ZWM0YmVlNzA0ZGI0OGFlZTAzOGFhOGMyYjNmYzUzMzdhZGZlYTVjNWZjNTY1MzA1M2IxNGNmZjA0OTgxIiwidCI6MTYwMjc1NzM4NCwic3RmcCI6IiIsInN0aXAiOm51bGx9.faP-vLMKyJJEazefaPCV22iPih7FL1ffRt4OSdd_RU8/Corvus_v10.0-R-Alpha-TheStorm-whyred-14102020-Official-1635.zip
-  ROM_NAME: Generic
+  ROM_URL: http://rom.download.nubia.com/Europe/NX659J/V409/NX659J-update.zip
+  ROM_NAME: Nubia
   TZ: Asia/Kolkata
   username : ${{ secrets.USERNAME }}
   password : ${{ secrets.PASSWORD }}

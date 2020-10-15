@@ -7,7 +7,6 @@ TOKEN="${{ secrets.TOKEN }}"
 if [ -z $TOKEN ]; then
 exit 0
 
-sed "Enter the chat ID you want the bot to send the build information to\nID: "
 read ID
 
 sed -i "s/enzomacaco/$TOKEN" telegram

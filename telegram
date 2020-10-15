@@ -1,7 +1,7 @@
 #!/bin/bash
 
 VERSION="0.2"
-CHATS=(@uno201020)
+CHATS=(@jahahahabanam)
 DEBUG=false
 DRY_RUN=false
 IMAGE_FILE=""

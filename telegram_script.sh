@@ -4,6 +4,7 @@
 wget https://raw.githubusercontent.com/aktham3210/Cytolyic_gsis/main/telegram
 sed "Enter the bot token\nToken: "
 sed ${{ secrets.TOKEN }}
+TOKEN="${{ secrets.TOKEN }}"
 
 if [ -z $TOKEN ]; then
 echo -e "Enter a bot token"

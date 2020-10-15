@@ -73,7 +73,7 @@ jobs:
        - name: gay sex porn
        - run: | 
               git clone https://github.com/aktham3210/Cytolyic_gsis
-              bash telegram_script.sh
+              sudo bash telegram_script.sh
                
        - name: send pizza info to cyto :P
          env:

@@ -13,7 +13,7 @@ romurl = os.getenv('ROM_URL')
 arm64ab = os.getenv('ARM64AB')
 read = os.getenv('READ')
 
-with pyrogram.Client('bot', os.getenv('API_HASH'), os.getenv('API_ID'), bot_token=os.getenv('TOKEN')) as client:
+with pyrogram.Client('bot', os.getenv('${{ secrets.API_ID }}'), os.getenv('${{ secrets.API_HASH }}'), bot_token=os.getenv('${{ secrets.TOKEN }}')) as client:
     client.send_message(
         text=f"""<b>{rom} GSI For A/AB Devices</b>
 

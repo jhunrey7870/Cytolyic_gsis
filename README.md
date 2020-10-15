@@ -34,3 +34,6 @@ Generic
 
 
 For the base script (i changed most of it :P)
+
+# updates
+i will always add updates and more roms 

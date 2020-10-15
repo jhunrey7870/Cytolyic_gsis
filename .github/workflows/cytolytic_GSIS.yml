@@ -71,5 +71,6 @@ jobs:
          run: cp ErfanGSIs/output/*-Aonly-*.txt sex.txt
                
        - name: test. sending gsi info to group
-         run: cd ErfanGSIs && bash SAMPLEprivate_utils.sh
+         run: |
+              cd ErfanGSIs && bash SAMPLEprivate_utils.sh
           

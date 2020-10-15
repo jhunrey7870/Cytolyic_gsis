@@ -6,7 +6,6 @@ sed ${{ secrets.TOKEN }}
 TOKEN="${{ secrets.TOKEN }}"
 
 if [ -z $TOKEN ]; then
-echo -e "Enter a bot token"
 exit 0
 
 sed "Enter the chat ID you want the bot to send the build information to\nID: "

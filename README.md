@@ -1,3 +1,7 @@
+# Disclaimer
+if you're going to use this script then please make sure to give proper credit
+
+
 # Gsi build
 this is probably the best gsi script you can find
 

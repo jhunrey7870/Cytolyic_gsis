@@ -31,11 +31,12 @@ Generic
 ```
 
 # Credits
+
+### @JamieHoSzeYui(henloboi) For the base script (i changed all of it  :P)
 [JamieHoSzeYui(henloboi)/area69Labs](https://github.com/JamieHoSzeYui/GSI-Automation)
 
-### For the base script (i changed all of it  :P)
+### Enzo for being a good bish 
 [Enzo](https://github.com/yukosky)
-### for being a good bish
 
 # updates
 i will always add updates and more roms 

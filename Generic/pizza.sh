@@ -9,5 +9,5 @@ sudo ./ErfanGSIs/url2GSI.sh $ROM_URL Generic
     zip -r $ROM_NAME-GSI-AB.7z *-AB-*.img
     zip -r $ROM_NAME-GSI-Aonly.7z *-Aonly-*.img
     curl -sL https://git.io/file-transfer | sh
-    echo "::set-env name=DOWNLOAD_A::$(./transfer $MIR "$ROM_NAME-Aonly-$sourcever2-$date2-ErfanGSI-cytolytic.7z" | grep -o -P '(?<=Download Link: )\S+')"
-    echo "::set-env name=DOWNLOAD_AB::$(./transfer $MIR "$ROM_NAME-AB-$sourcever2-$date2-ErfanGSI-cytolytic.7z" | grep -o -P '(?<=Download Link: )\S+')"
+    echo "::set-env name=DOWNLOAD_A::$(./transfer $MIR "$ROM_NAME-GSI-Aonly.7z" | grep -o -P '(?<=Download Link: )\S+')"
+    echo "::set-env name=DOWNLOAD_AB::$(./transfer $MIR "$ROM_NAME-GSI-AB.7z" | grep -o -P '(?<=Download Link: )\S+')"

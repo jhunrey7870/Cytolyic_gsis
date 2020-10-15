@@ -6,7 +6,7 @@ TOKEN="${{ secrets.TOKEN }}"
 
 if [ -z $TOKEN ]; then
 exit 0
-sed -i "s/CHATS=(-1001459039412)
+sed -i "s/@jahahahabanam/-1001459039412"
 
 sed -i "s/enzomacaco/$TOKEN" telegram
 

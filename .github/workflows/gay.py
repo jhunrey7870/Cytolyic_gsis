@@ -3,7 +3,7 @@
 import os
 import pyrogram
 
-with open('Aonly.txt') as f:
+with open('sex.txt') as f:
     os.environ['CAT_FILE'] = f.read()
 
 rom = os.getenv('ROM')

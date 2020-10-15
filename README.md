@@ -26,4 +26,6 @@ Generic
 
 # Credits
 [JamieHoSzeYui(henloboi)/area69Labs](https://github.com/JamieHoSzeYui/GSI-Automation)
+
+
 For the base script (i changed most of it :P)

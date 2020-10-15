@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://fs.oppo.com/3/oppowww/androidrom/710q/CPH2023PU_11_OTA_0730_all_4b9m0wV9ioC8_roll-back-pu-findx2.ozip
+  ROM_URL: https://download.c.realme.com/osupdate/RMX2051_11_OTA_0170_all_4LYSpQ411U1V.ozip
   ROM_NAME: ColorOS
   TZ: Asia/Kolkata
   username : ${{ secrets.USERNAME }}

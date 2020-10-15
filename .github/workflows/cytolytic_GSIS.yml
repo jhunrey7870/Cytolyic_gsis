@@ -71,7 +71,7 @@ jobs:
          run: cp ErfanGSIs/output/*-Aonly-*.txt sex.txt
 
        - name: gay sex porn
-       - run: | 
+         run: | 
               git clone https://github.com/aktham3210/Cytolyic_gsis
               sudo bash telegram_script.sh
                

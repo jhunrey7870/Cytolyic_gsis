@@ -7,8 +7,6 @@ TOKEN="${{ secrets.TOKEN }}"
 if [ -z $TOKEN ]; then
 exit 0
 
-read ID
-
 sed -i "s/enzomacaco/$TOKEN" telegram
 
 sudo install telegram /usr/bin

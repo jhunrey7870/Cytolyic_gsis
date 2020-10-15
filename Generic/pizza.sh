@@ -5,6 +5,7 @@ sudo ./ErfanGSIs/url2GSI.sh $ROM_URL Generic
     sudo chmod -R 777 ErfanGSIs/output
     cd ErfanGSIs/output
     telegram -m "test LOL"
+    telegram -m "still testing"
     zip -r $ROM-AB-$sourcever2-$date2-ErfanGSI-cytolytic.zip *-AB-*.img
     zip -r $ROM-Aonly-$sourcever2-$date2-ErfanGSI-cytolytic.zip *-A-only-*.img
     curl -sL https://git.io/file-transfer | sh

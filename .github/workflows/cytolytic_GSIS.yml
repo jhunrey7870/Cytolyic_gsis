@@ -33,13 +33,6 @@ jobs:
          uses: actions/setup-python@v2
          with:
            python-version: '3.8.2'
-       - name: install cyto bot :P
-         env:
-              TOKEN: ${{ secrets.TOKEN }}
-         run: |
-              sudo install telegram /usr/bin
-              chmod +x $ROM_NAME/taco.sh
-              . $ROM_NAME/taco.sh
 
        - name: Initializing environment
          run: |

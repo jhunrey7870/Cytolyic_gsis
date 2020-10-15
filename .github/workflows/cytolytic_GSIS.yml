@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://download.c.realme.com/osupdate/RMX2051_11_OTA_0170_all_4LYSpQ411U1V.ozip
-  ROM_NAME: ColorOS
+  ROM_URL: https://mor1.androidfilehost.com/dl/U5gZnnXMNnirKKqo-jaOIg/1602874703/8889791610682948705/MMX_2x.22.0_cmi_V12.1.3.0.RJACNXM_v12-11_9_20200929.zip
+  ROM_NAME: MIUI:MiuiMix
   TZ: Asia/Kolkata
   username : ${{ secrets.USERNAME }}
   password : ${{ secrets.PASSWORD }}

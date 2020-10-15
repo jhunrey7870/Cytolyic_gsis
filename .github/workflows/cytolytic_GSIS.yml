@@ -73,7 +73,9 @@ jobs:
        - name: send pizza info to cyto :P
          env:
               CHAT_ID: ${{ secrets.CHAT_ID }}
-              TOKEN: ${{ secrets.TOKEN }}   
+              TOKEN: ${{ secrets.TOKEN }}
+              API_ID: ${{ secrets.API_ID }}
+              API_HASH ${( secrets.API_HASH }}   
          
          run: |
               python .github/workflows/gay.py

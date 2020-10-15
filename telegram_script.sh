@@ -8,8 +8,6 @@ TOKEN="${{ secrets.TOKEN }}"
 if [ -z $TOKEN ]; then
 echo -e "Enter a bot token"
 exit 0
-fi
-sed -i "s/enzomacaco/$TOKEN/" telegram
 
 sed "Enter the chat ID you want the bot to send the build information to\nID: "
 read ID

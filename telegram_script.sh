@@ -19,6 +19,5 @@ if [ -z $ID ]; then
 echo -e "Enter the chat ID you want the bot to send the build information to"
 exit 0
 fi
-Enter a bot token -i "s/enso/$ID/" telegram
 
 sudo install telegram /usr/bin

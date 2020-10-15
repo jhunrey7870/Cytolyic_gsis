@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://dllb2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2MDI3MDU5ODciLCJ1IjpudWxsLCJsdCI6ImRvd25sb2FkIiwicyI6IjdmNzUxMzY2YTVhNTdhOTk3MjUxMWRjZjI3MTYxMjg4Yzg3OWM3ZThkN2RjNTU3Nzg1Y2E2MjVmMTc0ZWNkZjkzZWZhMjNhYjc0MDAzNjlhYjcxYjFlMzk5MzU3NmQ1YzFlYjRiNGQ4MjdmMWFkOWNmMzRkNzM3NjNiZDJlN2I3IiwidCI6MTYwMjczODM1Niwic3RmcCI6IiIsInN0aXAiOm51bGx9.-tq34AvmDJeODlyVRGUcFs63Kho2pMpPbhNh_IU6fpA/Corvus_v10.0-R-Alpha-TheStorm-whyred-14102020-Official-1635.zip
+  ROM_URL: https://dllb2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2MDI3MDU5ODciLCJ1IjpudWxsLCJsdCI6ImRvd25sb2FkIiwicyI6IjEzMDU3MzI5NWViZDcxYjg0Yzk4MWU5MTljYTBmNDhkOTY3YzBhMjJlNjE3ZjY0OTkyZjQzYjY4MjkxODU2M2U1YTYwOWE4NmUwYTFkMjI0NDRhMTQzNzlhMDJlNzQ5ZmQ4NWFmMmQ4MTU4YzBmNDdiNGUzNDk0MzZhYzZkOGIxIiwidCI6MTYwMjc0MjMxOCwic3RmcCI6IiIsInN0aXAiOm51bGx9.vNEXPWIENipFsH7anfJHEJwt7QrBrkrHvsljkzFtU-0/Corvus_v10.0-R-Alpha-TheStorm-whyred-14102020-Official-1635.zip
   ROM_NAME: Generic
   TZ: Asia/Kolkata
   username : ${{ secrets.USERNAME }}

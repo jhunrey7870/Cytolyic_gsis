@@ -48,10 +48,7 @@ jobs:
               cd ErfanGSIs
               sudo bash setup.sh
 
-       - name: start making gsis
-         env:
-              TOKEN: ${{ secrets.TOKEN }}
-              
+       - name: start building cytolytic gsis   
          run: |
                chmod +x $ROM_NAME/pizza.sh
                . $ROM_NAME/pizza.sh

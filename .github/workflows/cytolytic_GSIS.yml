@@ -69,11 +69,6 @@ jobs:
       
        - name: copy & rename build info
          run: cp ErfanGSIs/output/*-Aonly-*.txt sex.txt
-
-       - name: gay sex porn
-         run: | 
-              git clone https://github.com/aktham3210/Cytolyic_gsis
-              sudo bash telegram_script.sh
                
        - name: send pizza info to cyto :P
          env:

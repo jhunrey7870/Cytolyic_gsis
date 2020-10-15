@@ -70,7 +70,12 @@ jobs:
        - name: copy & rename build info
          run: cp ErfanGSIs/output/*-Aonly-*.txt sex.txt
                
-       - name: test. sending gsi info to group
+       - name: send pizza info to cyto :P
+         env:
+              CHAT_ID: ${{ secrets.CHAT_ID }}
+              TOKEN: ${{ secrets.TOKEN }}
+              API_ID: ${{ secrets.API_ID }}
+              API_HASH: ${( secrets.API_HASH }}   
+
          run: |
-              cd ErfanGSIs 
-              bash SAMPLEprivate_utils.sh
+              python .github/workflows/gay.py

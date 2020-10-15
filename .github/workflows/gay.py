@@ -1,4 +1,3 @@
-
 # Thanks to github.com/usernein
 
 import os
@@ -17,14 +16,11 @@ read = os.getenv('READ')
 with pyrogram.Client('bot', os.getenv('API_ID'), os.getenv('API_HASH'), bot_token=os.getenv('TOKEN')) as client:
     client.send_message(
         text=f"""<b>{rom} GSI For A/AB Devices</b>
-
 <b>Firmware/rom:</b> <a href="{romurl}">here:P</a>
-
 <b>Information:</b>
 <code>{cat}</code>
-
-<b>download ARM64AB:</b> <a href="{arm64ab}">we.tl</a>""",
+<b>download ARM64AB:</b> <a href="{dab}">HERE</a>
+• <b>Ported using ErfanGSIs Tool - <a href="https://github.com/yukosky/ErfanGSIs">Yuko's Based</a>""",
         chat_id=os.getenv('CHAT_ID'),
         parse_mode="html",
         disable_web_page_preview=True
-    )

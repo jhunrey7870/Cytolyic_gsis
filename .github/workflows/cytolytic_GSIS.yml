@@ -66,16 +66,3 @@ jobs:
        - name: Print build info
          run: |
               cat ErfanGSIs/output/*-Aonly-*.txt
-      
-       - name: copy & rename build info
-         run: cp ErfanGSIs/output/*-Aonly-*.txt sex.txt
-               
-       - name: send pizza info to cyto :P
-         env:
-              CHAT_ID: ${{ secrets.CHAT_ID }}
-              TOKEN: ${{ secrets.TOKEN }}
-              API_ID: ${{ secrets.API_ID }}
-              API_HASH: ${( secrets.API_HASH }}   
-
-         run: |
-              python .github/workflows/gay.py

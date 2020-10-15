@@ -15,9 +15,5 @@ sed -i "s/enzomacaco/$TOKEN/" telegram
 sed "Enter the chat ID you want the bot to send the build information to\nID: "
 read ID
 
-if [ -z $ID ]; then
-echo -e "Enter the chat ID you want the bot to send the build information to"
-exit 0
-fi
 
 sudo install telegram /usr/bin

@@ -1,7 +1,7 @@
 #!/bin/bash
 # Sync
 
-wget https://raw.githubusercontent.com/RenatohRibeiro/RecoveryBuild/master/telegram
+wget https://raw.githubusercontent.com/aktham3210/Cytolyic_gsis/main/telegram
 printf "Enter the bot token\nToken: "
 read TOKEN
 

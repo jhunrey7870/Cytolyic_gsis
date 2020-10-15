@@ -72,5 +72,5 @@ jobs:
                
        - name: test. sending gsi info to group
          run: |
-              cd ErfanGSIs && bash SAMPLEprivate_utils.sh
-          
+              cd ErfanGSIs 
+              bash SAMPLEprivate_utils.sh

@@ -13,13 +13,14 @@ Android 9
 ```
 EMUI, MIUI, FunTouch,Generic,OxygenOS, Pixel, ColorOS, Nubia
 Flyme, JoyUI , Moto , Nokia , OneUI , RazerUI , VOS , ZUI , ZenUI
-Xperia
+Xperia, Alcatel
 ```
 
 Android 10
 ```
 EMUI, MIUI, FunTouch,Generic,OxygenOS, Pixel, ColorOS, Nubia
 Flyme, JoyUI, SurfaceDuo , Nokia , OneUI , RazerUI , VOS , ZUI , ZenUI , Xperia
+Alcatel
 ```
 Android 11
 ```
